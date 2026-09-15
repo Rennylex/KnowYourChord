@@ -1,0 +1,28 @@
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.venv*/
+venv/
+
+# Build and packaging
+build/
+dist/
+*.whl
+
+# Local media, generated outputs, and model caches
+outputs*/
+*.wav
+*.mp3
+*.mp4
+*.MP4
+*.mov
+*.m4v
+*.mid
+*.midi
+*.musicxml
+*.pdf
+.docker-model-cache/

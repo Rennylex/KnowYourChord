@@ -1,0 +1,30 @@
+[project]
+name = "knowyourchord"
+version = "0.1.0"
+description = "Transcribe piano or guitar performance media into MIDI, MusicXML, PDF, and MP3 files."
+readme = "readme.md"
+requires-python = ">=3.10,<3.12"
+dependencies = [
+  "basic-pitch>=0.4.0",
+  "music21>=9.1.0",
+  "pretty-midi>=0.2.10",
+  "soundfile>=0.12.1",
+]
+
+[project.scripts]
+know-your-chord = "src.cli:main"
+music-transcriber = "src.cli:main"
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = []
+
+[tool.setuptools.package-dir]
+"" = "."
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]
