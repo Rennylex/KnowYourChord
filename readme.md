@@ -1,6 +1,6 @@
 # KnowYourChord
 
-KnowYourChord is a small Python CLI for turning piano or guitar performance audio/video into editable music artifacts.
+Yoho, musician! KnowYourChord is a small Python CLI for turning piano or guitar performance audio/video into editable music artifacts.
 
 It takes common media files such as `wav`, `mp3`, `mp4`, or `mov`, extracts the audio, transcribes it to MIDI, and can export MusicXML, PDF sheet music, a source MP3, and a rendered MP3 preview.
 
